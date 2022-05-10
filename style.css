@@ -113,3 +113,38 @@ input {
 	border: 1px solid hsl(0, 0%, 85%);
 	width: 50%;
 }
+
+.form-footer {
+	padding: 2rem 3rem;
+}
+
+button[type="submit"] {
+	background-color: hsl(92, 20%, 35%);
+	border: none;
+	padding: 1rem 3rem;
+	font-weight: bold;
+	color: hsl(0, 0%, 100%);
+	font-size: 1rem;
+	border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+	background-color: hsl(92, 20%, 25%);
+	color: hsl(0, 0%, 90%);
+
+	cursor: pointer;
+}
+
+.form-footer > p {
+	margin-top: 1rem;
+}
+
+.form-footer > p > a {
+	color: hsl(92, 20%, 35%);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.form-footer > p > a:hover {
+	text-decoration: underline;
+}
