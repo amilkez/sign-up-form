@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap");
 @font-face {
 	font-family: "Norse Bold";
 	src: url(./Norse-Bold.otf);
@@ -74,6 +74,7 @@ form {
 	font-weight: bold;
 	font-size: 1.4rem;
 	margin: 1.5rem 0;
+	line-height: 1.3;
 }
 
 .form-header p:first-child {
@@ -97,6 +98,8 @@ form {
 	width: 100%;
 	padding: 2rem 3rem;
 	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.13);
+	color: #333c49;
+	margin-top: -2rem;
 }
 
 .user-info {
@@ -109,9 +112,11 @@ form {
 .user-info p input {
 	display: block;
 }
+
 input {
 	border: 1px solid hsl(0, 0%, 85%);
 	width: 50%;
+	padding: 0.3rem;
 }
 
 .form-footer {
@@ -133,6 +138,13 @@ button[type="submit"]:hover {
 	color: hsl(0, 0%, 90%);
 
 	cursor: pointer;
+}
+
+label {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 0.7rem;
+	margin: 1rem 0 0.2rem;
 }
 
 .form-footer > p {
