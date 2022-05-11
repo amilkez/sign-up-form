@@ -117,6 +117,7 @@ input {
 	border: 1px solid hsl(0, 0%, 85%);
 	width: 50%;
 	padding: 0.3rem;
+	border-radius: 5px;
 }
 
 .form-footer {
@@ -157,6 +158,27 @@ label {
 	text-decoration: none;
 }
 
+/* Pseudo Styles */
+
 .form-footer > p > a:hover {
 	text-decoration: underline;
+}
+
+/* add stylings for when the input is:
+		valid
+		invalid 
+		passwords don't match
+		 */
+
+input:focus-visible {
+	outline: none;
+}
+
+input:valid {
+	border: 2px solid hsl(225, 70%, 74%);
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.13);
+}
+
+.invalid {
+	border: 2px solid hsl(0, 53%, 54%);
 }
